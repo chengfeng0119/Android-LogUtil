@@ -3,13 +3,13 @@ package com.example.abc;
 import android.util.Log;
 
 /**
- * Log¹¤¾ßÀà<br/><br/>
+ * Logå·¥å…·ç±»<br/><br/>
  * 
- * 1.¿É×Ô¶¨Òå±êÇ©Ãû³Æ»òÊ¹ÓÃÄ¬ÈÏ±êÇ©Ãû³Æ<br/>
- * 2.ÏîÄ¿ÕıÊ½ÉÏÏßºó½« LEVELÖ¸¶¨³É NOTHING±ã¿ÉÆÁ±ÎËùÓĞÈÕÖ¾<br/>
+ * 1.å¯è‡ªå®šä¹‰æ ‡ç­¾åç§°æˆ–ä½¿ç”¨é»˜è®¤æ ‡ç­¾åç§°<br/>
+ * 2.é¡¹ç›®æ­£å¼ä¸Šçº¿åå°† LEVELæŒ‡å®šæˆ NOTHINGä¾¿å¯å±è”½æ‰€æœ‰æ—¥å¿—<br/>
  * 
  * @author lzh
- * @since  2016 ÏÂÎç3:28:12
+ * @since  2016 ä¸‹åˆ3:28:12
  */
 public class LogUtil {
 	
@@ -18,7 +18,7 @@ public class LogUtil {
 		throw new UnsupportedOperationException("cannot be instantiated");
 	}
 	
-	/** Ä¬ÈÏµÄTAG±êÇ©Ãû³Æ   */
+	/** é»˜è®¤çš„TAGæ ‡ç­¾åç§° */
 	public static String tag = "test";
 	
 	public static final int VERBOSE = 1;
